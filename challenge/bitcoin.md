@@ -1,5 +1,7 @@
 # First test - compile and create a commit
 
+[Challenge](https://github.com/vinteum-foss-program/bdl-2025-test-the-test-aquental)
+
 1. Clone Bitcoin core
 
 ```shell
