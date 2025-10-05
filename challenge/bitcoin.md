@@ -1,7 +1,5 @@
 # First test - compile and create a commit
 
-[Challenge](https://github.com/vinteum-foss-program/bdl-2025-test-the-test-aquental)
-
 1. Clone Bitcoin core
 
 ```shell
@@ -39,5 +37,9 @@ brew install cmake boost pkgconf libevent
 ```
 
 4. Run all the functional tests: `build/test/functional/test_runner.py`
-   1. target test: `??`
-   2. change: _line x_
+   1. create a RAM disk (macOS)
+      1. create: `diskutil erasevolume HFS+ ramdisk $(hdiutil attach -nomount ram://8388608)`
+      2. run tests using `build/test/functional/test_runner.py --cachedir=/Volumes/ramdisk/cache --tmpdir=/Volumes/ramdisk/tmp`
+      3. unmount: `umount /Volumes/ramdisk`
+   2. target test: `??`
+   3. change: _line x_
