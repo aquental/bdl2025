@@ -4,4 +4,4 @@
 
 ## tasks
 
-1. [Bitcoin test](./challenge/bitcoin.md)
+1. [Bitcoin test](./challenge/first/bitcoin.md)
