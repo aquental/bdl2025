@@ -53,30 +53,32 @@
 
 5. generate diff (`git show <commit>`)
 
-   ```diff
-   commit 9748c07aff173bdd21a000a2073b657d3ae1534b (HEAD)
-   Author: aquental <aquental@users.noreply.github.com>
-   Date:   Sun Oct 5 01:53:05 2025 -0300
+[break_feature_p2p_seednode.diff](./break_feature_p2p_seednode.diff)
 
-      break p2p_seednode.py
-      comment line 2678 of bitcoin/src/net.cpp
-      This line is responsible for setting the flag that triggers `seednode`
-      addition to the `addr_fetch` queue. The test should fail, specifically
-      the `test_seednode_empty_addrman` and `test_seednode_non_empty_addrman`
-      test cases, as they will no longer see the expected log messages about
-      adding seednodes.
+```diff
+commit 9748c07aff173bdd21a000a2073b657d3ae1534b (HEAD)
+Author: aquental <aquental@users.noreply.github.com>
+Date:   Sun Oct 5 01:53:05 2025 -0300
 
-   diff --git a/src/net.cpp b/src/net.cpp
-   index 735985a841..5752e486b7 100644
-   --- a/src/net.cpp
-   +++ b/src/net.cpp
-   @@ -2676,7 +2676,7 @@ void CConnman::ThreadOpenConnections(const std::vector<std::string> connect, Spa
-            if (!seed_nodes.empty() && nOutboundFullRelay < SEED_OUTBOUND_CONNECTION_THRESHOLD) {
-               if (NodeClock::now() > seed_node_timer + ADD_NEXT_SEEDNODE) {
-                  seed_node_timer = NodeClock::now();
-   -                add_addr_fetch = true;
-   +                //add_addr_fetch = true; // BREAK HERE
-               }
+   break p2p_seednode.py
+   comment line 2678 of bitcoin/src/net.cpp
+   This line is responsible for setting the flag that triggers `seednode`
+   addition to the `addr_fetch` queue. The test should fail, specifically
+   the `test_seednode_empty_addrman` and `test_seednode_non_empty_addrman`
+   test cases, as they will no longer see the expected log messages about
+   adding seednodes.
+
+diff --git a/src/net.cpp b/src/net.cpp
+index 735985a841..5752e486b7 100644
+--- a/src/net.cpp
++++ b/src/net.cpp
+@@ -2676,7 +2676,7 @@ void CConnman::ThreadOpenConnections(const std::vector<std::string> connect, Spa
+         if (!seed_nodes.empty() && nOutboundFullRelay < SEED_OUTBOUND_CONNECTION_THRESHOLD) {
+            if (NodeClock::now() > seed_node_timer + ADD_NEXT_SEEDNODE) {
+               seed_node_timer = NodeClock::now();
+-                add_addr_fetch = true;
++                //add_addr_fetch = true; // BREAK HERE
             }
+         }
 
-   ```
+```
