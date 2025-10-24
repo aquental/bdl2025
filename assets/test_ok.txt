@@ -1,0 +1,648 @@
+build/test/functional/test_runner.py
+Temporary test directory at /var/folders/x4/6kj83mfn4wx2k092h8t9fj8h0000gn/T/test_runner_₿_🏃_20251002_150742
+1/318 - feature_taproot.py passed, Duration: 32 s              
+2/318 - wallet_conflicts.py --legacy-wallet skipped (BDB has not been compiled.)
+3/318 - feature_fee_estimation.py passed, Duration: 36 s
+4/318 - feature_block.py passed, Duration: 51 s
+5/318 - mempool_ephemeral_dust.py passed, Duration: 54 s
+6/318 - p2p_node_network_limited.py --v1transport passed, Duration: 12 s
+7/318 - p2p_node_network_limited.py --v2transport passed, Duration: 11 s
+8/318 - p2p_opportunistic_1p1c.py passed, Duration: 44 s
+9/318 - wallet_conflicts.py --descriptors passed, Duration: 78 s
+10/318 - p2p_segwit.py passed, Duration: 62 s
+11/318 - feature_assumeutxo.py passed, Duration: 18 s
+12/318 - mining_getblocktemplate_longpoll.py passed, Duration: 67 s
+13/318 - rpc_psbt.py --legacy-wallet skipped (BDB has not been compiled.)
+14/318 - mempool_updatefromblock.py passed, Duration: 7 s
+15/318 - wallet_fundrawtransaction.py --legacy-wallet skipped (BDB has not been compiled.)
+16/318 - mempool_persist.py --descriptors passed, Duration: 13 s
+17/318 - wallet_bumpfee.py --legacy-wallet skipped (BDB has not been compiled.)
+18/318 - feature_maxuploadtarget.py passed, Duration: 62 s
+19/318 - wallet_import_rescan.py --legacy-wallet skipped (BDB has not been compiled.)
+20/318 - wallet_backup.py --legacy-wallet skipped (BDB has not been compiled.)
+21/318 - wallet_fundrawtransaction.py --descriptors passed, Duration: 13 s
+22/318 - feature_segwit.py --legacy-wallet skipped (BDB has not been compiled.)
+23/318 - rpc_psbt.py --descriptors passed, Duration: 22 s
+24/318 - feature_segwit.py --descriptors --v1transport passed, Duration: 7 s
+25/318 - feature_segwit.py --descriptors --v2transport passed, Duration: 6 s
+26/318 - wallet_backup.py --descriptors passed, Duration: 16 s
+27/318 - wallet_avoidreuse.py --legacy-wallet skipped (BDB has not been compiled.)
+28/318 - feature_abortnode.py passed, Duration: 1 s
+29/318 - wallet_address_types.py --legacy-wallet skipped (BDB has not been compiled.)
+30/318 - wallet_bumpfee.py --descriptors passed, Duration: 22 s
+31/318 - wallet_avoidreuse.py --descriptors passed, Duration: 6 s
+32/318 - wallet_basic.py --legacy-wallet skipped (BDB has not been compiled.)
+33/318 - wallet_address_types.py --descriptors passed, Duration: 12 s
+34/318 - feature_maxtipage.py passed, Duration: 5 s
+35/318 - wallet_multiwallet.py --legacy-wallet skipped (BDB has not been compiled.)
+36/318 - p2p_orphan_handling.py passed, Duration: 17 s
+37/318 - wallet_basic.py --descriptors passed, Duration: 17 s
+38/318 - wallet_multiwallet.py --descriptors passed, Duration: 8 s
+39/318 - wallet_groups.py --legacy-wallet skipped (BDB has not been compiled.)
+40/318 - wallet_multiwallet.py --usecli passed, Duration: 9 s
+41/318 - p2p_tx_download.py passed, Duration: 35 s
+42/318 - feature_assumevalid.py passed, Duration: 4 s
+43/318 - p2p_blockfilters.py passed, Duration: 7 s
+44/318 - wallet_groups.py --descriptors passed, Duration: 12 s
+45/318 - feature_bip68_sequence.py passed, Duration: 5 s
+46/318 - rpc_bind.py --ipv4 skipped (not on a Linux system)
+47/318 - rpc_bind.py --ipv6 skipped (not on a Linux system)
+48/318 - rpc_bind.py --nonloopback skipped (not on a Linux system)
+49/318 - rpc_packages.py passed, Duration: 4 s
+50/318 - wallet_taproot.py --descriptors passed, Duration: 13 s
+51/318 - p2p_feefilter.py passed, Duration: 4 s
+52/318 - p2p_dns_seeds.py passed, Duration: 26 s
+53/318 - p2p_headers_sync_with_minchainwork.py passed, Duration: 11 s
+54/318 - wallet_listtransactions.py --legacy-wallet skipped (BDB has not been compiled.)
+55/318 - feature_config_args.py passed, Duration: 14 s
+56/318 - feature_csv_activation.py passed, Duration: 17 s
+57/318 - wallet_listtransactions.py --descriptors passed, Duration: 12 s
+58/318 - rpc_createmultisig.py passed, Duration: 3 s
+59/318 - p2p_timeouts.py --v1transport passed, Duration: 1 s
+60/318 - p2p_timeouts.py --v2transport passed, Duration: 1 s
+61/318 - wallet_dump.py --legacy-wallet skipped (BDB has not been compiled.)
+62/318 - p2p_invalid_messages.py passed, Duration: 9 s
+63/318 - rpc_signer.py passed, Duration: 1 s
+64/318 - wallet_importmulti.py --legacy-wallet skipped (BDB has not been compiled.)
+65/318 - wallet_miniscript.py --descriptors passed, Duration: 13 s
+66/318 - wallet_signer.py --descriptors passed, Duration: 3 s
+67/318 - rpc_orphans.py passed, Duration: 1 s
+68/318 - rpc_txoutproof.py passed, Duration: 2 s
+69/318 - wallet_listreceivedby.py --legacy-wallet skipped (BDB has not been compiled.)
+70/318 - wallet_abandonconflict.py --legacy-wallet skipped (BDB has not been compiled.)
+71/318 - p2p_sendheaders.py passed, Duration: 34 s
+72/318 - wallet_listreceivedby.py --descriptors passed, Duration: 6 s
+73/318 - wallet_abandonconflict.py --descriptors passed, Duration: 5 s
+74/318 - wallet_labels.py --legacy-wallet skipped (BDB has not been compiled.)
+75/318 - feature_reindex_readonly.py passed, Duration: 1 s
+76/318 - feature_reindex.py passed, Duration: 5 s
+77/318 - mempool_limit.py passed, Duration: 14 s
+78/318 - wallet_labels.py --descriptors passed, Duration: 3 s
+79/318 - p2p_compactblocks_blocksonly.py passed, Duration: 2 s
+80/318 - wallet_hd.py --legacy-wallet skipped (BDB has not been compiled.)
+81/318 - wallet_blank.py --legacy-wallet skipped (BDB has not been compiled.)
+82/318 - wallet_keypool_topup.py --legacy-wallet skipped (BDB has not been compiled.)
+83/318 - wallet_blank.py --descriptors passed, Duration: 1 s
+84/318 - wallet_hd.py --descriptors passed, Duration: 5 s
+85/318 - wallet_fast_rescan.py --descriptors passed, Duration: 3 s
+86/318 - wallet_gethdkeys.py --descriptors passed, Duration: 1 s
+87/318 - p2p_compactblocks.py passed, Duration: 9 s
+88/318 - interface_zmq.py skipped (python3-zmq module not available.)
+89/318 - wallet_createwalletdescriptor.py --descriptors passed, Duration: 1 s
+90/318 - rpc_invalid_address_message.py passed, Duration: 1 s
+91/318 - rpc_validateaddress.py passed, Duration: 1 s
+92/318 - feature_bind_extra.py skipped (not on a Linux system)
+93/318 - wallet_keypool_topup.py --descriptors passed, Duration: 8 s
+94/318 - mempool_resurrect.py passed, Duration: 1 s
+95/318 - tool_wallet.py --legacy-wallet skipped (BDB has not been compiled.)
+96/318 - tool_wallet.py --legacy-wallet --bdbro skipped (BDB has not been compiled.)
+97/318 - tool_wallet.py --legacy-wallet --bdbro --swap-bdb-endian skipped (BDB has not been compiled.)
+98/318 - wallet_txn_doublespend.py --mineblock passed, Duration: 3 s
+99/318 - tool_signet_miner.py --legacy-wallet skipped (BDB has not been compiled.)
+100/318 - interface_bitcoin_cli.py --legacy-wallet passed, Duration: 7 s
+101/318 - tool_signet_miner.py --descriptors passed, Duration: 3 s
+102/318 - interface_bitcoin_cli.py --descriptors passed, Duration: 9 s
+103/318 - wallet_txn_clone.py passed, Duration: 2 s
+104/318 - wallet_txn_clone.py --segwit passed, Duration: 1 s
+105/318 - rpc_misc.py passed, Duration: 1 s
+106/318 - tool_wallet.py --descriptors passed, Duration: 8 s
+107/318 - mempool_spend_coinbase.py passed, Duration: 1 s
+108/318 - rpc_getchaintips.py passed, Duration: 5 s
+109/318 - interface_rest.py passed, Duration: 4 s
+110/318 - wallet_avoid_mixing_output_types.py --descriptors passed, Duration: 2 s
+111/318 - mempool_reorg.py passed, Duration: 3 s
+112/318 - p2p_block_sync.py --v1transport passed, Duration: 2 s
+113/318 - wallet_createwallet.py --legacy-wallet skipped (BDB has not been compiled.)
+114/318 - p2p_block_sync.py --v2transport passed, Duration: 2 s
+115/318 - wallet_watchonly.py --legacy-wallet skipped (BDB has not been compiled.)
+116/318 - wallet_watchonly.py --usecli --legacy-wallet skipped (BDB has not been compiled.)
+117/318 - wallet_reindex.py --legacy-wallet skipped (BDB has not been compiled.)
+118/318 - wallet_createwallet.py --descriptors passed, Duration: 2 s
+119/318 - wallet_createwallet.py --usecli passed, Duration: 3 s
+120/318 - wallet_reindex.py --descriptors passed, Duration: 1 s
+121/318 - interface_http.py passed, Duration: 1 s
+122/318 - interface_usdt_coinselection.py skipped (not on a Linux system)
+123/318 - interface_usdt_mempool.py skipped (not on a Linux system)
+124/318 - interface_rpc.py passed, Duration: 2 s
+125/318 - interface_usdt_net.py skipped (not on a Linux system)
+126/318 - interface_usdt_utxocache.py skipped (not on a Linux system)
+127/318 - interface_usdt_validation.py skipped (not on a Linux system)
+128/318 - p2p_1p1c_network.py passed, Duration: 15 s
+129/318 - rpc_whitelist.py passed, Duration: 2 s
+130/318 - wallet_reorgsrestore.py passed, Duration: 7 s
+131/318 - wallet_signrawtransactionwithwallet.py --legacy-wallet skipped (BDB has not been compiled.)
+132/318 - rpc_signrawtransactionwithkey.py passed, Duration: 1 s
+133/318 - wallet_signrawtransactionwithwallet.py --descriptors passed, Duration: 2 s
+134/318 - feature_proxy.py passed, Duration: 4 s
+135/318 - wallet_transactiontime_rescan.py --legacy-wallet skipped (BDB has not been compiled.)
+136/318 - p2p_addrv2_relay.py passed, Duration: 1 s
+137/318 - rpc_rawtransaction.py --legacy-wallet passed, Duration: 5 s
+138/318 - wallet_transactiontime_rescan.py --descriptors passed, Duration: 5 s
+139/318 - rpc_users.py passed, Duration: 11 s
+140/318 - p2p_disconnect_ban.py --v1transport passed, Duration: 2 s
+141/318 - p2p_disconnect_ban.py --v2transport passed, Duration: 2 s
+142/318 - feature_posix_fs_permissions.py passed, Duration: 1 s
+143/318 - rpc_decodescript.py passed, Duration: 1 s
+144/318 - p2p_compactblocks_hb.py --v2transport passed, Duration: 14 s
+145/318 - rpc_deprecated.py passed, Duration: 1 s
+146/318 - p2p_compactblocks_hb.py --v1transport passed, Duration: 16 s
+147/318 - wallet_disable.py passed, Duration: 1 s
+148/318 - wallet_change_address.py --legacy-wallet skipped (BDB has not been compiled.)
+149/318 - rpc_blockchain.py --v1transport passed, Duration: 13 s
+150/318 - rpc_blockchain.py --v2transport passed, Duration: 13 s
+151/318 - p2p_getdata.py passed, Duration: 1 s
+152/318 - p2p_addrfetch.py passed, Duration: 1 s
+153/318 - p2p_getaddr_caching.py passed, Duration: 4 s
+154/318 - wallet_change_address.py --descriptors passed, Duration: 8 s
+155/318 - wallet_keypool.py --legacy-wallet skipped (BDB has not been compiled.)
+156/318 - rpc_net.py --v1transport passed, Duration: 6 s
+157/318 - wallet_keypool.py --descriptors passed, Duration: 3 s
+158/318 - p2p_nobloomfilter_messages.py passed, Duration: 1 s
+159/318 - wallet_descriptor.py --descriptors passed, Duration: 3 s
+160/318 - rpc_net.py --v2transport passed, Duration: 9 s
+161/318 - p2p_addr_relay.py passed, Duration: 16 s
+162/318 - p2p_filter.py passed, Duration: 4 s
+163/318 - rpc_setban.py --v1transport passed, Duration: 3 s
+164/318 - feature_framework_unit_tests.py passed, Duration: 6 s
+165/318 - rpc_setban.py --v2transport passed, Duration: 4 s
+166/318 - mining_prioritisetransaction.py passed, Duration: 2 s
+167/318 - p2p_invalid_locator.py passed, Duration: 2 s
+168/318 - p2p_invalid_block.py --v1transport passed, Duration: 2 s
+169/318 - p2p_invalid_block.py --v2transport passed, Duration: 2 s
+170/318 - p2p_invalid_tx.py --v1transport passed, Duration: 8 s
+171/318 - p2p_v2_transport.py passed, Duration: 7 s
+172/318 - p2p_invalid_tx.py --v2transport passed, Duration: 8 s
+173/318 - p2p_v2_misbehaving.py passed, Duration: 1 s
+174/318 - example_test.py passed, Duration: 2 s
+175/318 - wallet_txn_doublespend.py --legacy-wallet skipped (BDB has not been compiled.)
+176/318 - p2p_v2_encrypted.py passed, Duration: 6 s
+177/318 - wallet_multisig_descriptor_psbt.py --descriptors passed, Duration: 2 s
+178/318 - wallet_miniscript_decaying_multisig_descriptor_psbt.py --descriptors passed, Duration: 1 s
+179/318 - wallet_backwards_compatibility.py --legacy-wallet skipped (BDB has not been compiled.)
+180/318 - wallet_txn_doublespend.py --descriptors passed, Duration: 1 s
+181/318 - wallet_backwards_compatibility.py --descriptors skipped (previous releases not available or disabled)
+182/318 - wallet_txn_clone.py --mineblock passed, Duration: 3 s
+183/318 - mempool_truc.py passed, Duration: 10 s
+184/318 - rpc_getblockfilter.py passed, Duration: 1 s
+185/318 - rpc_invalidateblock.py passed, Duration: 1 s
+186/318 - feature_utxo_set_hash.py passed, Duration: 1 s
+187/318 - rpc_getblockfrompeer.py passed, Duration: 4 s
+188/318 - mempool_packages.py passed, Duration: 2 s
+189/318 - mempool_package_onemore.py passed, Duration: 1 s
+190/318 - p2p_blocksonly.py passed, Duration: 32 s
+191/318 - feature_notifications.py passed, Duration: 13 s
+192/318 - mempool_package_limits.py passed, Duration: 1 s
+193/318 - tool_utxo_to_sqlite.py passed, Duration: 1 s
+194/318 - feature_versionbits_warning.py passed, Duration: 2 s
+195/318 - feature_blocksxor.py passed, Duration: 1 s
+196/318 - rpc_preciousblock.py passed, Duration: 1 s
+197/318 - feature_rbf.py passed, Duration: 10 s
+198/318 - wallet_importprunedfunds.py --legacy-wallet skipped (BDB has not been compiled.)
+199/318 - wallet_importprunedfunds.py --descriptors passed, Duration: 2 s
+200/318 - p2p_eviction.py passed, Duration: 5 s
+201/318 - mempool_package_rbf.py passed, Duration: 15 s
+202/318 - p2p_outbound_eviction.py passed, Duration: 6 s
+203/318 - p2p_ibd_stalling.py --v1transport passed, Duration: 4 s
+204/318 - p2p_net_deadlock.py --v1transport passed, Duration: 2 s
+205/318 - p2p_leak_tx.py --v1transport passed, Duration: 18 s
+206/318 - p2p_ibd_stalling.py --v2transport passed, Duration: 5 s
+207/318 - p2p_net_deadlock.py --v2transport passed, Duration: 2 s
+208/318 - wallet_signmessagewithaddress.py passed, Duration: 1 s
+209/318 - rpc_signmessagewithprivkey.py passed, Duration: 1 s
+210/318 - wallet_balance.py --legacy-wallet skipped (BDB has not been compiled.)
+211/318 - rpc_generate.py passed, Duration: 1 s
+212/318 - p2p_initial_headers_sync.py passed, Duration: 1 s
+213/318 - feature_nulldummy.py passed, Duration: 1 s
+214/318 - mempool_accept.py passed, Duration: 2 s
+215/318 - mempool_expiry.py passed, Duration: 2 s
+216/318 - wallet_import_with_label.py --legacy-wallet skipped (BDB has not been compiled.)
+217/318 - wallet_upgradewallet.py --legacy-wallet skipped (BDB has not been compiled.)
+218/318 - wallet_balance.py --descriptors passed, Duration: 5 s
+219/318 - wallet_crosschain.py passed, Duration: 1 s
+220/318 - p2p_leak_tx.py --v2transport passed, Duration: 27 s
+221/318 - feature_signet.py passed, Duration: 2 s
+222/318 - mining_mainnet.py passed, Duration: 5 s
+223/318 - p2p_mutated_blocks.py passed, Duration: 2 s
+224/318 - wallet_implicitsegwit.py --legacy-wallet skipped (BDB has not been compiled.)
+225/318 - rpc_named_arguments.py passed, Duration: 1 s
+226/318 - feature_startupnotify.py passed, Duration: 1 s
+227/318 - wallet_simulaterawtx.py --legacy-wallet skipped (BDB has not been compiled.)
+228/318 - wallet_simulaterawtx.py --descriptors passed, Duration: 1 s
+229/318 - wallet_listsinceblock.py --legacy-wallet skipped (BDB has not been compiled.)
+230/318 - wallet_listdescriptors.py --descriptors passed, Duration: 1 s
+231/318 - wallet_importdescriptors.py --descriptors passed, Duration: 13 s
+232/318 - wallet_encryption.py --legacy-wallet skipped (BDB has not been compiled.)
+233/318 - mining_basic.py passed, Duration: 16 s
+234/318 - wallet_listsinceblock.py --descriptors passed, Duration: 8 s
+235/318 - p2p_leak.py passed, Duration: 7 s
+236/318 - wallet_encryption.py --descriptors passed, Duration: 6 s
+237/318 - feature_dersig.py passed, Duration: 2 s
+238/318 - rpc_uptime.py passed, Duration: 1 s
+239/318 - feature_cltv.py passed, Duration: 2 s
+240/318 - wallet_resendwallettransactions.py --legacy-wallet skipped (BDB has not been compiled.)
+241/318 - wallet_fallbackfee.py --legacy-wallet skipped (BDB has not been compiled.)
+242/318 - feature_discover.py passed, Duration: 2 s
+243/318 - wallet_fallbackfee.py --descriptors passed, Duration: 1 s
+244/318 - rpc_dumptxoutset.py passed, Duration: 1 s
+245/318 - rpc_estimatefee.py passed, Duration: 1 s
+246/318 - rpc_getblockstats.py passed, Duration: 1 s
+247/318 - feature_bind_port_externalip.py skipped (To run this test make sure that 1.1.1.1 (a routable address) is assigned to one of the interfaces on this machine and rerun with --ihave1111)
+248/318 - wallet_resendwallettransactions.py --descriptors passed, Duration: 4 s
+249/318 - wallet_create_tx.py --legacy-wallet skipped (BDB has not been compiled.)
+250/318 - wallet_send.py --legacy-wallet skipped (BDB has not been compiled.)
+251/318 - wallet_sendall.py --legacy-wallet skipped (BDB has not been compiled.)
+252/318 - feature_port.py passed, Duration: 3 s
+253/318 - wallet_sendmany.py --descriptors passed, Duration: 1 s
+254/318 - wallet_sendmany.py --legacy-wallet skipped (BDB has not been compiled.)
+255/318 - wallet_sendall.py --descriptors passed, Duration: 2 s
+256/318 - wallet_inactive_hdchains.py --legacy-wallet skipped (BDB has not been compiled.)
+257/318 - wallet_spend_unconfirmed.py passed, Duration: 1 s
+258/318 - wallet_create_tx.py --descriptors passed, Duration: 2 s
+259/318 - wallet_rescan_unconfirmed.py --descriptors passed, Duration: 1 s
+260/318 - p2p_fingerprint.py passed, Duration: 1 s
+261/318 - feature_uacomment.py passed, Duration: 2 s
+262/318 - feature_minchainwork.py passed, Duration: 11 s
+263/318 - wallet_coinbase_category.py --legacy-wallet skipped (BDB has not been compiled.)
+264/318 - wallet_coinbase_category.py --descriptors passed, Duration: 1 s
+265/318 - feature_filelock.py passed, Duration: 1 s
+266/318 - feature_loadblock.py passed, Duration: 1 s
+267/318 - p2p_dos_header_tree.py passed, Duration: 2 s
+268/318 - wallet_send.py --descriptors passed, Duration: 13 s
+269/318 - feature_bind_port_discover.py skipped (To run this test make sure that 1.1.1.1 and 2.2.2.2 (routable addresses) are assigned to the interfaces on this machine and rerun with --ihave1111and2222)
+270/318 - wallet_assumeutxo.py --descriptors passed, Duration: 5 s
+271/318 - p2p_message_capture.py passed, Duration: 1 s
+272/318 - feature_init.py passed, Duration: 10 s
+273/318 - p2p_unrequested_blocks.py passed, Duration: 4 s
+274/318 - feature_includeconf.py passed, Duration: 2 s
+275/318 - feature_fastprune.py passed, Duration: 1 s
+276/318 - p2p_add_connections.py passed, Duration: 7 s
+277/318 - feature_addrman.py passed, Duration: 4 s
+278/318 - mempool_compatibility.py skipped (previous releases not available or disabled)
+279/318 - feature_asmap.py passed, Duration: 4 s
+280/318 - feature_framework_miniwallet.py passed, Duration: 4 s
+281/318 - mempool_dust.py passed, Duration: 5 s
+282/318 - mempool_sigoplimit.py passed, Duration: 5 s
+283/318 - rpc_deriveaddresses.py passed, Duration: 1 s
+284/318 - mempool_accept_wtxid.py passed, Duration: 8 s
+285/318 - rpc_deriveaddresses.py --usecli passed, Duration: 1 s
+286/318 - p2p_ping.py passed, Duration: 1 s
+287/318 - rpc_getdescriptoractivity.py passed, Duration: 1 s
+288/318 - mempool_unbroadcast.py passed, Duration: 11 s
+289/318 - rpc_scanblocks.py passed, Duration: 2 s
+290/318 - feature_unsupported_utxo_db.py skipped (previous releases not available or disabled)
+291/318 - p2p_tx_privacy.py passed, Duration: 4 s
+292/318 - rpc_scantxoutset.py passed, Duration: 3 s
+293/318 - mempool_datacarrier.py passed, Duration: 1 s
+294/318 - feature_logging.py passed, Duration: 4 s
+295/318 - feature_anchors.py passed, Duration: 3 s
+296/318 - p2p_sendtxrcncl.py passed, Duration: 7 s
+297/318 - wallet_timelock.py passed, Duration: 1 s
+298/318 - feature_blocksdir.py passed, Duration: 1 s
+299/318 - wallet_startup.py passed, Duration: 2 s
+300/318 - feature_coinstatsindex.py passed, Duration: 6 s
+301/318 - p2p_i2p_ports.py passed, Duration: 1 s
+302/318 - feature_remove_pruned_files_on_startup.py passed, Duration: 2 s
+303/318 - p2p_i2p_sessions.py passed, Duration: 1 s
+304/318 - feature_presegwit_node_upgrade.py passed, Duration: 1 s
+305/318 - rpc_getdescriptorinfo.py passed, Duration: 1 s
+306/318 - wallet_orphanedreward.py passed, Duration: 10 s
+307/318 - rpc_mempool_info.py passed, Duration: 1 s
+308/318 - p2p_permissions.py passed, Duration: 10 s
+309/318 - feature_settings.py passed, Duration: 4 s
+310/318 - rpc_help.py passed, Duration: 1 s
+311/318 - feature_dirsymlinks.py passed, Duration: 1 s
+312/318 - feature_help.py passed, Duration: 1 s
+313/318 - wallet_migration.py skipped (previous releases not available or disabled)
+314/318 - feature_shutdown.py passed, Duration: 1 s
+Remaining jobs: [p2p_handshake.py, p2p_handshake.py --v2transport, p2p_ibd_txrelay.py, p2p_seednode.py]
+315/318 - p2p_handshake.py passed, Duration: 4 s
+Remaining jobs: [p2p_handshake.py --v2transport, p2p_ibd_txrelay.py, p2p_seednode.py]
+316/318 - p2p_handshake.py --v2transport passed, Duration: 4 s
+Remaining jobs: [p2p_ibd_txrelay.py, p2p_seednode.py]
+317/318 - p2p_ibd_txrelay.py passed, Duration: 2 s
+Remaining jobs: [p2p_seednode.py]
+318/318 - p2p_seednode.py passed, Duration: 3 s
+
+TEST                                                                 | STATUS    | DURATION
+
+example_test.py                                                      | ✓ Passed  | 2 s
+feature_abortnode.py                                                 | ✓ Passed  | 1 s
+feature_addrman.py                                                   | ✓ Passed  | 4 s
+feature_anchors.py                                                   | ✓ Passed  | 3 s
+feature_asmap.py                                                     | ✓ Passed  | 4 s
+feature_assumeutxo.py                                                | ✓ Passed  | 18 s
+feature_assumevalid.py                                               | ✓ Passed  | 4 s
+feature_bip68_sequence.py                                            | ✓ Passed  | 5 s
+feature_block.py                                                     | ✓ Passed  | 51 s
+feature_blocksdir.py                                                 | ✓ Passed  | 1 s
+feature_blocksxor.py                                                 | ✓ Passed  | 1 s
+feature_cltv.py                                                      | ✓ Passed  | 2 s
+feature_coinstatsindex.py                                            | ✓ Passed  | 6 s
+feature_config_args.py                                               | ✓ Passed  | 14 s
+feature_csv_activation.py                                            | ✓ Passed  | 17 s
+feature_dersig.py                                                    | ✓ Passed  | 2 s
+feature_dirsymlinks.py                                               | ✓ Passed  | 1 s
+feature_discover.py                                                  | ✓ Passed  | 2 s
+feature_fastprune.py                                                 | ✓ Passed  | 1 s
+feature_fee_estimation.py                                            | ✓ Passed  | 36 s
+feature_filelock.py                                                  | ✓ Passed  | 1 s
+feature_framework_miniwallet.py                                      | ✓ Passed  | 4 s
+feature_framework_unit_tests.py                                      | ✓ Passed  | 6 s
+feature_help.py                                                      | ✓ Passed  | 1 s
+feature_includeconf.py                                               | ✓ Passed  | 2 s
+feature_init.py                                                      | ✓ Passed  | 10 s
+feature_loadblock.py                                                 | ✓ Passed  | 1 s
+feature_logging.py                                                   | ✓ Passed  | 4 s
+feature_maxtipage.py                                                 | ✓ Passed  | 5 s
+feature_maxuploadtarget.py                                           | ✓ Passed  | 62 s
+feature_minchainwork.py                                              | ✓ Passed  | 11 s
+feature_notifications.py                                             | ✓ Passed  | 13 s
+feature_nulldummy.py                                                 | ✓ Passed  | 1 s
+feature_port.py                                                      | ✓ Passed  | 3 s
+feature_posix_fs_permissions.py                                      | ✓ Passed  | 1 s
+feature_presegwit_node_upgrade.py                                    | ✓ Passed  | 1 s
+feature_proxy.py                                                     | ✓ Passed  | 4 s
+feature_rbf.py                                                       | ✓ Passed  | 10 s
+feature_reindex.py                                                   | ✓ Passed  | 5 s
+feature_reindex_readonly.py                                          | ✓ Passed  | 1 s
+feature_remove_pruned_files_on_startup.py                            | ✓ Passed  | 2 s
+feature_segwit.py --descriptors --v1transport                        | ✓ Passed  | 7 s
+feature_segwit.py --descriptors --v2transport                        | ✓ Passed  | 6 s
+feature_settings.py                                                  | ✓ Passed  | 4 s
+feature_shutdown.py                                                  | ✓ Passed  | 1 s
+feature_signet.py                                                    | ✓ Passed  | 2 s
+feature_startupnotify.py                                             | ✓ Passed  | 1 s
+feature_taproot.py                                                   | ✓ Passed  | 32 s
+feature_uacomment.py                                                 | ✓ Passed  | 2 s
+feature_utxo_set_hash.py                                             | ✓ Passed  | 1 s
+feature_versionbits_warning.py                                       | ✓ Passed  | 2 s
+interface_bitcoin_cli.py --descriptors                               | ✓ Passed  | 9 s
+interface_bitcoin_cli.py --legacy-wallet                             | ✓ Passed  | 7 s
+interface_http.py                                                    | ✓ Passed  | 1 s
+interface_rest.py                                                    | ✓ Passed  | 4 s
+interface_rpc.py                                                     | ✓ Passed  | 2 s
+mempool_accept.py                                                    | ✓ Passed  | 2 s
+mempool_accept_wtxid.py                                              | ✓ Passed  | 8 s
+mempool_datacarrier.py                                               | ✓ Passed  | 1 s
+mempool_dust.py                                                      | ✓ Passed  | 5 s
+mempool_ephemeral_dust.py                                            | ✓ Passed  | 54 s
+mempool_expiry.py                                                    | ✓ Passed  | 2 s
+mempool_limit.py                                                     | ✓ Passed  | 14 s
+mempool_package_limits.py                                            | ✓ Passed  | 1 s
+mempool_package_onemore.py                                           | ✓ Passed  | 1 s
+mempool_package_rbf.py                                               | ✓ Passed  | 15 s
+mempool_packages.py                                                  | ✓ Passed  | 2 s
+mempool_persist.py --descriptors                                     | ✓ Passed  | 13 s
+mempool_reorg.py                                                     | ✓ Passed  | 3 s
+mempool_resurrect.py                                                 | ✓ Passed  | 1 s
+mempool_sigoplimit.py                                                | ✓ Passed  | 5 s
+mempool_spend_coinbase.py                                            | ✓ Passed  | 1 s
+mempool_truc.py                                                      | ✓ Passed  | 10 s
+mempool_unbroadcast.py                                               | ✓ Passed  | 11 s
+mempool_updatefromblock.py                                           | ✓ Passed  | 7 s
+mining_basic.py                                                      | ✓ Passed  | 16 s
+mining_getblocktemplate_longpoll.py                                  | ✓ Passed  | 67 s
+mining_mainnet.py                                                    | ✓ Passed  | 5 s
+mining_prioritisetransaction.py                                      | ✓ Passed  | 2 s
+p2p_1p1c_network.py                                                  | ✓ Passed  | 15 s
+p2p_add_connections.py                                               | ✓ Passed  | 7 s
+p2p_addr_relay.py                                                    | ✓ Passed  | 16 s
+p2p_addrfetch.py                                                     | ✓ Passed  | 1 s
+p2p_addrv2_relay.py                                                  | ✓ Passed  | 1 s
+p2p_block_sync.py --v1transport                                      | ✓ Passed  | 2 s
+p2p_block_sync.py --v2transport                                      | ✓ Passed  | 2 s
+p2p_blockfilters.py                                                  | ✓ Passed  | 7 s
+p2p_blocksonly.py                                                    | ✓ Passed  | 32 s
+p2p_compactblocks.py                                                 | ✓ Passed  | 9 s
+p2p_compactblocks_blocksonly.py                                      | ✓ Passed  | 2 s
+p2p_compactblocks_hb.py --v1transport                                | ✓ Passed  | 16 s
+p2p_compactblocks_hb.py --v2transport                                | ✓ Passed  | 14 s
+p2p_disconnect_ban.py --v1transport                                  | ✓ Passed  | 2 s
+p2p_disconnect_ban.py --v2transport                                  | ✓ Passed  | 2 s
+p2p_dns_seeds.py                                                     | ✓ Passed  | 26 s
+p2p_dos_header_tree.py                                               | ✓ Passed  | 2 s
+p2p_eviction.py                                                      | ✓ Passed  | 5 s
+p2p_feefilter.py                                                     | ✓ Passed  | 4 s
+p2p_filter.py                                                        | ✓ Passed  | 4 s
+p2p_fingerprint.py                                                   | ✓ Passed  | 1 s
+p2p_getaddr_caching.py                                               | ✓ Passed  | 4 s
+p2p_getdata.py                                                       | ✓ Passed  | 1 s
+p2p_handshake.py                                                     | ✓ Passed  | 4 s
+p2p_handshake.py --v2transport                                       | ✓ Passed  | 4 s
+p2p_headers_sync_with_minchainwork.py                                | ✓ Passed  | 11 s
+p2p_i2p_ports.py                                                     | ✓ Passed  | 1 s
+p2p_i2p_sessions.py                                                  | ✓ Passed  | 1 s
+p2p_ibd_stalling.py --v1transport                                    | ✓ Passed  | 4 s
+p2p_ibd_stalling.py --v2transport                                    | ✓ Passed  | 5 s
+p2p_ibd_txrelay.py                                                   | ✓ Passed  | 2 s
+p2p_initial_headers_sync.py                                          | ✓ Passed  | 1 s
+p2p_invalid_block.py --v1transport                                   | ✓ Passed  | 2 s
+p2p_invalid_block.py --v2transport                                   | ✓ Passed  | 2 s
+p2p_invalid_locator.py                                               | ✓ Passed  | 2 s
+p2p_invalid_messages.py                                              | ✓ Passed  | 9 s
+p2p_invalid_tx.py --v1transport                                      | ✓ Passed  | 8 s
+p2p_invalid_tx.py --v2transport                                      | ✓ Passed  | 8 s
+p2p_leak.py                                                          | ✓ Passed  | 7 s
+p2p_leak_tx.py --v1transport                                         | ✓ Passed  | 18 s
+p2p_leak_tx.py --v2transport                                         | ✓ Passed  | 27 s
+p2p_message_capture.py                                               | ✓ Passed  | 1 s
+p2p_mutated_blocks.py                                                | ✓ Passed  | 2 s
+p2p_net_deadlock.py --v1transport                                    | ✓ Passed  | 2 s
+p2p_net_deadlock.py --v2transport                                    | ✓ Passed  | 2 s
+p2p_nobloomfilter_messages.py                                        | ✓ Passed  | 1 s
+p2p_node_network_limited.py --v1transport                            | ✓ Passed  | 12 s
+p2p_node_network_limited.py --v2transport                            | ✓ Passed  | 11 s
+p2p_opportunistic_1p1c.py                                            | ✓ Passed  | 44 s
+p2p_orphan_handling.py                                               | ✓ Passed  | 17 s
+p2p_outbound_eviction.py                                             | ✓ Passed  | 6 s
+p2p_permissions.py                                                   | ✓ Passed  | 10 s
+p2p_ping.py                                                          | ✓ Passed  | 1 s
+p2p_seednode.py                                                      | ✓ Passed  | 3 s
+p2p_segwit.py                                                        | ✓ Passed  | 62 s
+p2p_sendheaders.py                                                   | ✓ Passed  | 34 s
+p2p_sendtxrcncl.py                                                   | ✓ Passed  | 7 s
+p2p_timeouts.py --v1transport                                        | ✓ Passed  | 1 s
+p2p_timeouts.py --v2transport                                        | ✓ Passed  | 1 s
+p2p_tx_download.py                                                   | ✓ Passed  | 35 s
+p2p_tx_privacy.py                                                    | ✓ Passed  | 4 s
+p2p_unrequested_blocks.py                                            | ✓ Passed  | 4 s
+p2p_v2_encrypted.py                                                  | ✓ Passed  | 6 s
+p2p_v2_misbehaving.py                                                | ✓ Passed  | 1 s
+p2p_v2_transport.py                                                  | ✓ Passed  | 7 s
+rpc_blockchain.py --v1transport                                      | ✓ Passed  | 13 s
+rpc_blockchain.py --v2transport                                      | ✓ Passed  | 13 s
+rpc_createmultisig.py                                                | ✓ Passed  | 3 s
+rpc_decodescript.py                                                  | ✓ Passed  | 1 s
+rpc_deprecated.py                                                    | ✓ Passed  | 1 s
+rpc_deriveaddresses.py                                               | ✓ Passed  | 1 s
+rpc_deriveaddresses.py --usecli                                      | ✓ Passed  | 1 s
+rpc_dumptxoutset.py                                                  | ✓ Passed  | 1 s
+rpc_estimatefee.py                                                   | ✓ Passed  | 1 s
+rpc_generate.py                                                      | ✓ Passed  | 1 s
+rpc_getblockfilter.py                                                | ✓ Passed  | 1 s
+rpc_getblockfrompeer.py                                              | ✓ Passed  | 4 s
+rpc_getblockstats.py                                                 | ✓ Passed  | 1 s
+rpc_getchaintips.py                                                  | ✓ Passed  | 5 s
+rpc_getdescriptoractivity.py                                         | ✓ Passed  | 1 s
+rpc_getdescriptorinfo.py                                             | ✓ Passed  | 1 s
+rpc_help.py                                                          | ✓ Passed  | 1 s
+rpc_invalid_address_message.py                                       | ✓ Passed  | 1 s
+rpc_invalidateblock.py                                               | ✓ Passed  | 1 s
+rpc_mempool_info.py                                                  | ✓ Passed  | 1 s
+rpc_misc.py                                                          | ✓ Passed  | 1 s
+rpc_named_arguments.py                                               | ✓ Passed  | 1 s
+rpc_net.py --v1transport                                             | ✓ Passed  | 6 s
+rpc_net.py --v2transport                                             | ✓ Passed  | 9 s
+rpc_orphans.py                                                       | ✓ Passed  | 1 s
+rpc_packages.py                                                      | ✓ Passed  | 4 s
+rpc_preciousblock.py                                                 | ✓ Passed  | 1 s
+rpc_psbt.py --descriptors                                            | ✓ Passed  | 22 s
+rpc_rawtransaction.py --legacy-wallet                                | ✓ Passed  | 5 s
+rpc_scanblocks.py                                                    | ✓ Passed  | 2 s
+rpc_scantxoutset.py                                                  | ✓ Passed  | 3 s
+rpc_setban.py --v1transport                                          | ✓ Passed  | 3 s
+rpc_setban.py --v2transport                                          | ✓ Passed  | 4 s
+rpc_signer.py                                                        | ✓ Passed  | 1 s
+rpc_signmessagewithprivkey.py                                        | ✓ Passed  | 1 s
+rpc_signrawtransactionwithkey.py                                     | ✓ Passed  | 1 s
+rpc_txoutproof.py                                                    | ✓ Passed  | 2 s
+rpc_uptime.py                                                        | ✓ Passed  | 1 s
+rpc_users.py                                                         | ✓ Passed  | 11 s
+rpc_validateaddress.py                                               | ✓ Passed  | 1 s
+rpc_whitelist.py                                                     | ✓ Passed  | 2 s
+tool_signet_miner.py --descriptors                                   | ✓ Passed  | 3 s
+tool_utxo_to_sqlite.py                                               | ✓ Passed  | 1 s
+tool_wallet.py --descriptors                                         | ✓ Passed  | 8 s
+wallet_abandonconflict.py --descriptors                              | ✓ Passed  | 5 s
+wallet_address_types.py --descriptors                                | ✓ Passed  | 12 s
+wallet_assumeutxo.py --descriptors                                   | ✓ Passed  | 5 s
+wallet_avoid_mixing_output_types.py --descriptors                    | ✓ Passed  | 2 s
+wallet_avoidreuse.py --descriptors                                   | ✓ Passed  | 6 s
+wallet_backup.py --descriptors                                       | ✓ Passed  | 16 s
+wallet_balance.py --descriptors                                      | ✓ Passed  | 5 s
+wallet_basic.py --descriptors                                        | ✓ Passed  | 17 s
+wallet_blank.py --descriptors                                        | ✓ Passed  | 1 s
+wallet_bumpfee.py --descriptors                                      | ✓ Passed  | 22 s
+wallet_change_address.py --descriptors                               | ✓ Passed  | 8 s
+wallet_coinbase_category.py --descriptors                            | ✓ Passed  | 1 s
+wallet_conflicts.py --descriptors                                    | ✓ Passed  | 78 s
+wallet_create_tx.py --descriptors                                    | ✓ Passed  | 2 s
+wallet_createwallet.py --descriptors                                 | ✓ Passed  | 2 s
+wallet_createwallet.py --usecli                                      | ✓ Passed  | 3 s
+wallet_createwalletdescriptor.py --descriptors                       | ✓ Passed  | 1 s
+wallet_crosschain.py                                                 | ✓ Passed  | 1 s
+wallet_descriptor.py --descriptors                                   | ✓ Passed  | 3 s
+wallet_disable.py                                                    | ✓ Passed  | 1 s
+wallet_encryption.py --descriptors                                   | ✓ Passed  | 6 s
+wallet_fallbackfee.py --descriptors                                  | ✓ Passed  | 1 s
+wallet_fast_rescan.py --descriptors                                  | ✓ Passed  | 3 s
+wallet_fundrawtransaction.py --descriptors                           | ✓ Passed  | 13 s
+wallet_gethdkeys.py --descriptors                                    | ✓ Passed  | 1 s
+wallet_groups.py --descriptors                                       | ✓ Passed  | 12 s
+wallet_hd.py --descriptors                                           | ✓ Passed  | 5 s
+wallet_importdescriptors.py --descriptors                            | ✓ Passed  | 13 s
+wallet_importprunedfunds.py --descriptors                            | ✓ Passed  | 2 s
+wallet_keypool.py --descriptors                                      | ✓ Passed  | 3 s
+wallet_keypool_topup.py --descriptors                                | ✓ Passed  | 8 s
+wallet_labels.py --descriptors                                       | ✓ Passed  | 3 s
+wallet_listdescriptors.py --descriptors                              | ✓ Passed  | 1 s
+wallet_listreceivedby.py --descriptors                               | ✓ Passed  | 6 s
+wallet_listsinceblock.py --descriptors                               | ✓ Passed  | 8 s
+wallet_listtransactions.py --descriptors                             | ✓ Passed  | 12 s
+wallet_miniscript.py --descriptors                                   | ✓ Passed  | 13 s
+wallet_miniscript_decaying_multisig_descriptor_psbt.py --descriptors | ✓ Passed  | 1 s
+wallet_multisig_descriptor_psbt.py --descriptors                     | ✓ Passed  | 2 s
+wallet_multiwallet.py --descriptors                                  | ✓ Passed  | 8 s
+wallet_multiwallet.py --usecli                                       | ✓ Passed  | 9 s
+wallet_orphanedreward.py                                             | ✓ Passed  | 10 s
+wallet_reindex.py --descriptors                                      | ✓ Passed  | 1 s
+wallet_reorgsrestore.py                                              | ✓ Passed  | 7 s
+wallet_rescan_unconfirmed.py --descriptors                           | ✓ Passed  | 1 s
+wallet_resendwallettransactions.py --descriptors                     | ✓ Passed  | 4 s
+wallet_send.py --descriptors                                         | ✓ Passed  | 13 s
+wallet_sendall.py --descriptors                                      | ✓ Passed  | 2 s
+wallet_sendmany.py --descriptors                                     | ✓ Passed  | 1 s
+wallet_signer.py --descriptors                                       | ✓ Passed  | 3 s
+wallet_signmessagewithaddress.py                                     | ✓ Passed  | 1 s
+wallet_signrawtransactionwithwallet.py --descriptors                 | ✓ Passed  | 2 s
+wallet_simulaterawtx.py --descriptors                                | ✓ Passed  | 1 s
+wallet_spend_unconfirmed.py                                          | ✓ Passed  | 1 s
+wallet_startup.py                                                    | ✓ Passed  | 2 s
+wallet_taproot.py --descriptors                                      | ✓ Passed  | 13 s
+wallet_timelock.py                                                   | ✓ Passed  | 1 s
+wallet_transactiontime_rescan.py --descriptors                       | ✓ Passed  | 5 s
+wallet_txn_clone.py                                                  | ✓ Passed  | 2 s
+wallet_txn_clone.py --mineblock                                      | ✓ Passed  | 3 s
+wallet_txn_clone.py --segwit                                         | ✓ Passed  | 1 s
+wallet_txn_doublespend.py --descriptors                              | ✓ Passed  | 1 s
+wallet_txn_doublespend.py --mineblock                                | ✓ Passed  | 3 s
+feature_bind_extra.py                                                | ○ Skipped | 0 s
+feature_bind_port_discover.py                                        | ○ Skipped | 0 s
+feature_bind_port_externalip.py                                      | ○ Skipped | 0 s
+feature_segwit.py --legacy-wallet                                    | ○ Skipped | 0 s
+feature_unsupported_utxo_db.py                                       | ○ Skipped | 0 s
+interface_usdt_coinselection.py                                      | ○ Skipped | 0 s
+interface_usdt_mempool.py                                            | ○ Skipped | 0 s
+interface_usdt_net.py                                                | ○ Skipped | 1 s
+interface_usdt_utxocache.py                                          | ○ Skipped | 1 s
+interface_usdt_validation.py                                         | ○ Skipped | 1 s
+interface_zmq.py                                                     | ○ Skipped | 0 s
+mempool_compatibility.py                                             | ○ Skipped | 0 s
+rpc_bind.py --ipv4                                                   | ○ Skipped | 0 s
+rpc_bind.py --ipv6                                                   | ○ Skipped | 0 s
+rpc_bind.py --nonloopback                                            | ○ Skipped | 0 s
+rpc_psbt.py --legacy-wallet                                          | ○ Skipped | 0 s
+tool_signet_miner.py --legacy-wallet                                 | ○ Skipped | 0 s
+tool_wallet.py --legacy-wallet                                       | ○ Skipped | 0 s
+tool_wallet.py --legacy-wallet --bdbro                               | ○ Skipped | 0 s
+tool_wallet.py --legacy-wallet --bdbro --swap-bdb-endian             | ○ Skipped | 0 s
+wallet_abandonconflict.py --legacy-wallet                            | ○ Skipped | 0 s
+wallet_address_types.py --legacy-wallet                              | ○ Skipped | 0 s
+wallet_avoidreuse.py --legacy-wallet                                 | ○ Skipped | 0 s
+wallet_backup.py --legacy-wallet                                     | ○ Skipped | 0 s
+wallet_backwards_compatibility.py --descriptors                      | ○ Skipped | 1 s
+wallet_backwards_compatibility.py --legacy-wallet                    | ○ Skipped | 0 s
+wallet_balance.py --legacy-wallet                                    | ○ Skipped | 0 s
+wallet_basic.py --legacy-wallet                                      | ○ Skipped | 0 s
+wallet_blank.py --legacy-wallet                                      | ○ Skipped | 0 s
+wallet_bumpfee.py --legacy-wallet                                    | ○ Skipped | 0 s
+wallet_change_address.py --legacy-wallet                             | ○ Skipped | 1 s
+wallet_coinbase_category.py --legacy-wallet                          | ○ Skipped | 0 s
+wallet_conflicts.py --legacy-wallet                                  | ○ Skipped | 0 s
+wallet_create_tx.py --legacy-wallet                                  | ○ Skipped | 0 s
+wallet_createwallet.py --legacy-wallet                               | ○ Skipped | 0 s
+wallet_dump.py --legacy-wallet                                       | ○ Skipped | 0 s
+wallet_encryption.py --legacy-wallet                                 | ○ Skipped | 0 s
+wallet_fallbackfee.py --legacy-wallet                                | ○ Skipped | 0 s
+wallet_fundrawtransaction.py --legacy-wallet                         | ○ Skipped | 0 s
+wallet_groups.py --legacy-wallet                                     | ○ Skipped | 0 s
+wallet_hd.py --legacy-wallet                                         | ○ Skipped | 1 s
+wallet_implicitsegwit.py --legacy-wallet                             | ○ Skipped | 1 s
+wallet_import_rescan.py --legacy-wallet                              | ○ Skipped | 0 s
+wallet_import_with_label.py --legacy-wallet                          | ○ Skipped | 1 s
+wallet_importmulti.py --legacy-wallet                                | ○ Skipped | 0 s
+wallet_importprunedfunds.py --legacy-wallet                          | ○ Skipped | 1 s
+wallet_inactive_hdchains.py --legacy-wallet                          | ○ Skipped | 0 s
+wallet_keypool.py --legacy-wallet                                    | ○ Skipped | 0 s
+wallet_keypool_topup.py --legacy-wallet                              | ○ Skipped | 0 s
+wallet_labels.py --legacy-wallet                                     | ○ Skipped | 0 s
+wallet_listreceivedby.py --legacy-wallet                             | ○ Skipped | 1 s
+wallet_listsinceblock.py --legacy-wallet                             | ○ Skipped | 1 s
+wallet_listtransactions.py --legacy-wallet                           | ○ Skipped | 0 s
+wallet_migration.py                                                  | ○ Skipped | 0 s
+wallet_multiwallet.py --legacy-wallet                                | ○ Skipped | 0 s
+wallet_reindex.py --legacy-wallet                                    | ○ Skipped | 0 s
+wallet_resendwallettransactions.py --legacy-wallet                   | ○ Skipped | 0 s
+wallet_send.py --legacy-wallet                                       | ○ Skipped | 0 s
+wallet_sendall.py --legacy-wallet                                    | ○ Skipped | 0 s
+wallet_sendmany.py --legacy-wallet                                   | ○ Skipped | 0 s
+wallet_signrawtransactionwithwallet.py --legacy-wallet               | ○ Skipped | 0 s
+wallet_simulaterawtx.py --legacy-wallet                              | ○ Skipped | 1 s
+wallet_transactiontime_rescan.py --legacy-wallet                     | ○ Skipped | 0 s
+wallet_txn_doublespend.py --legacy-wallet                            | ○ Skipped | 0 s
+wallet_upgradewallet.py --legacy-wallet                              | ○ Skipped | 0 s
+wallet_watchonly.py --legacy-wallet                                  | ○ Skipped | 0 s
+wallet_watchonly.py --usecli --legacy-wallet                         | ○ Skipped | 0 s
+
+ALL                                                                  | ✓ Passed  | 1773 s (accumulated) 
+Runtime: 469 s
