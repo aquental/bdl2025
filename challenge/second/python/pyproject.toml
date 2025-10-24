@@ -1,0 +1,9 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Python RPC Scavenger Hunt"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-bitcoinrpc>=1.0",
+]

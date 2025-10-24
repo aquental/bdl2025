@@ -5,3 +5,4 @@
 ## tasks
 
 1. [Bitcoin test](./challenge/first/bitcoin.md)
+2. [Scavenger hunt](./challenge/second/scavenger-hunt.md)
